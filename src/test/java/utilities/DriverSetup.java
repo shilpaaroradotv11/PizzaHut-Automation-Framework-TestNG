@@ -10,6 +10,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class DriverSetup {
 
 	public static WebDriver driver;
+	
+	public static WebDriver getDriver() {
+	    return driver;
+	}
 
 	public static void launchBrowser(String url) {
 
